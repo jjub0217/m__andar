@@ -47,7 +47,7 @@ const Header = ({
     <header className={`header ${scrollTop ? "scrollTop" : ""}`}>
       <div className="logo_wrap">
         <h1 className="logo">
-          <Link to="/">
+          <a href="/">
             <span className="blind">메인</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +62,7 @@ const Header = ({
                 fill="#fff"
               />
             </svg>
-          </Link>
+          </a>
         </h1>
         <div className="tools_area">
           <button
@@ -112,7 +112,7 @@ const Header = ({
           </button>
         </div>
         <div className="tools_area">
-          <Link to="/" className="link_cart">
+          <a href="/" className="link_cart">
             <span className="blind">장바구니</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -126,8 +126,8 @@ const Header = ({
               />
             </svg>
             <span className="count">0</span>
-          </Link>
-          <Link to="/" className="link_profile">
+          </a>
+          <a href="/" className="link_profile">
             <span className="blind">내 정보</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -140,7 +140,7 @@ const Header = ({
                 fill="#fff"
               />
             </svg>
-          </Link>
+          </a>
         </div>
       </div>
       <Menu />

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/m__andar/static/css/main.55f45fd1.css",
-    "main.js": "/m__andar/static/js/main.a77dc28e.js",
+    "main.js": "/m__andar/static/js/main.2b6a8d02.js",
     "static/media/img_visual_item1.jpeg": "/m__andar/static/media/img_visual_item1.5916f7b85634381e237a.jpeg",
     "static/media/img_visual_item3.jpeg": "/m__andar/static/media/img_visual_item3.e57a3ed01722dc2d056e.jpeg",
     "static/media/img_visual_item6.jpg": "/m__andar/static/media/img_visual_item6.6a26fe49d5a38f7bfb22.jpg",
@@ -71,12 +71,13 @@
     "static/media/img_bratop_item3.jpg": "/m__andar/static/media/img_bratop_item3.7c61f32151ab0c71f03e.jpg",
     "static/media/img_slacks_ice_womans.jpg": "/m__andar/static/media/img_slacks_ice_womans.10652d76c9c7fddeffa9.jpg",
     "static/media/img_mat_relax_airsoft.jpg": "/m__andar/static/media/img_mat_relax_airsoft.6a844444662439428397.jpg",
+    "static/media/logo.svg": "/m__andar/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/m__andar/index.html",
     "main.55f45fd1.css.map": "/m__andar/static/css/main.55f45fd1.css.map",
-    "main.a77dc28e.js.map": "/m__andar/static/js/main.a77dc28e.js.map"
+    "main.2b6a8d02.js.map": "/m__andar/static/js/main.2b6a8d02.js.map"
   },
   "entrypoints": [
     "static/css/main.55f45fd1.css",
-    "static/js/main.a77dc28e.js"
+    "static/js/main.2b6a8d02.js"
   ]
 }
