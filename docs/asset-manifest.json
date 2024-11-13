@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/m__andar/static/css/main.55f45fd1.css",
-    "main.js": "/m__andar/static/js/main.2b6a8d02.js",
+    "main.css": "/m__andar/static/css/main.2d7d1e93.css",
+    "main.js": "/m__andar/static/js/main.0fe0fef2.js",
     "static/media/img_visual_item1.jpeg": "/m__andar/static/media/img_visual_item1.5916f7b85634381e237a.jpeg",
+    "static/media/img_membership.jpg": "/m__andar/static/media/img_membership.ea007be7213faf5d3ba0.jpg",
     "static/media/img_visual_item3.jpeg": "/m__andar/static/media/img_visual_item3.e57a3ed01722dc2d056e.jpeg",
+    "static/media/img_store.jpg": "/m__andar/static/media/img_store.6afd2873ef1392ab78de.jpg",
     "static/media/img_visual_item6.jpg": "/m__andar/static/media/img_visual_item6.6a26fe49d5a38f7bfb22.jpg",
     "static/media/img_event_item1.jpg": "/m__andar/static/media/img_event_item1.5c02c884a6c72b08bb30.jpg",
     "static/media/img_visual_item5.jpg": "/m__andar/static/media/img_visual_item5.d04eb4084ed3ec1edb01.jpg",
@@ -16,6 +18,7 @@
     "static/media/img_visual_item10.jpg": "/m__andar/static/media/img_visual_item10.dbeeda84e0c9dace5273.jpg",
     "static/media/img_visual_item9.jpg": "/m__andar/static/media/img_visual_item9.409ea9939145a3b2d5d0.jpg",
     "static/media/img_event_item2.jpg": "/m__andar/static/media/img_event_item2.670c7f3262a883175fce.jpg",
+    "static/media/img_search_background.jpg": "/m__andar/static/media/img_search_background.80f3cd7fa96e05206477.jpg",
     "static/media/img_swim_pants_womans.jpg": "/m__andar/static/media/img_swim_pants_womans.ee61d410750fe58c9386.jpg",
     "static/media/img_leggins_calf_signature_womans.jpg": "/m__andar/static/media/img_leggins_calf_signature_womans.0ec4744d8ec10de26aa9.jpg",
     "static/media/img_socks_nonslip_performance .jpg": "/m__andar/static/media/img_socks_nonslip_performance .4a50356d12809929a29c.jpg",
@@ -71,13 +74,17 @@
     "static/media/img_bratop_item3.jpg": "/m__andar/static/media/img_bratop_item3.7c61f32151ab0c71f03e.jpg",
     "static/media/img_slacks_ice_womans.jpg": "/m__andar/static/media/img_slacks_ice_womans.10652d76c9c7fddeffa9.jpg",
     "static/media/img_mat_relax_airsoft.jpg": "/m__andar/static/media/img_mat_relax_airsoft.6a844444662439428397.jpg",
-    "static/media/logo.svg": "/m__andar/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Gilroy-Medium.woff2": "/m__andar/static/media/Gilroy-Medium.b4ed01821d60f0f1d37b.woff2",
+    "static/media/Gilroy-Bold.woff2": "/m__andar/static/media/Gilroy-Bold.43c400e0603c24dac747.woff2",
+    "static/media/Gilroy-SemiBold.woff2": "/m__andar/static/media/Gilroy-SemiBold.72abf1d6d4e322ad0fae.woff2",
+    "static/media/Gilroy-Regular.woff2": "/m__andar/static/media/Gilroy-Regular.6a890c8ab9e195f54e58.woff2",
+    "static/media/ico_certification_item2.png": "/m__andar/static/media/ico_certification_item2.cac8f5927e37a1025eb9.png",
     "index.html": "/m__andar/index.html",
-    "main.55f45fd1.css.map": "/m__andar/static/css/main.55f45fd1.css.map",
-    "main.2b6a8d02.js.map": "/m__andar/static/js/main.2b6a8d02.js.map"
+    "main.2d7d1e93.css.map": "/m__andar/static/css/main.2d7d1e93.css.map",
+    "main.0fe0fef2.js.map": "/m__andar/static/js/main.0fe0fef2.js.map"
   },
   "entrypoints": [
-    "static/css/main.55f45fd1.css",
-    "static/js/main.2b6a8d02.js"
+    "static/css/main.2d7d1e93.css",
+    "static/js/main.0fe0fef2.js"
   ]
 }
