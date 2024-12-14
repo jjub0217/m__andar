@@ -647,7 +647,7 @@ const Main = () => {
       <div className="brand_area">
         <a href="" className="link_brand">
           <h2 className="headline">애슬레저 1위 안다르, 브랜드 스토리</h2>
-          <p className="title">Stretch your<br />story with andar</p>
+          <strong className="slogan">Stretch your<br />story with andar</strong>
           <p className="desc">*애슐래저 1위, 2023 대한민국 패션품질대상<br />스포츠 애슬레저 부문</p>
           <span className="label_more">자세히 보기</span>
         </a>
