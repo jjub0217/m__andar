@@ -112,7 +112,7 @@ const Header = ({
           </button>
         </div>
         <div className="tools_area">
-          <a href="/" className="link_cart">
+          <a href="" className="link_cart">
             <span className="blind">장바구니</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -127,7 +127,7 @@ const Header = ({
             </svg>
             <span className="count">0</span>
           </a>
-          <a href="/" className="link_profile">
+          <a href="" className="link_profile">
             <span className="blind">내 정보</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
