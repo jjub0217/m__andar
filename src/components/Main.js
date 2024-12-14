@@ -553,7 +553,7 @@ const Main = () => {
         "자외선 차단 래쉬가드부터 고급스런 비키니까지.\n안다르와 휴양지에서 인생샷 남겨요.",
       imgSrc: require("../images/img_swim_lash_pants_womans.jpg"),
       altText:
-        "해변에서 핏되는 래쉬가드와 쇼트팬츠를 입고 서핑 보드와 함께 있는 두 여성",
+        "해변에서 핏되는 래쉬가드와 쇼트팬츠를 입고 서핑 보드와 함께 있는 두 여성 메인",
       products: [
         {
           title: "[SET] 풀앤비치 래쉬가드 & 스윔팬츠",

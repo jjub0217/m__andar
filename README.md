@@ -20,7 +20,7 @@
 
 ## 프로젝트 웹표준(W3C의 Markup Validation Service)
 결과 : 0개 <br>
-<img src="https://github.com/jjub0217/beautiful.github.io/assets/62126380/67381d0f-bcc2-4d8f-9010-6154bd30050b" width=800> <br>
+<img src="https://github.com/user-attachments/assets/49f2b268-5474-41d8-9a45-fac0e541c484" width=800> <br>
 
 ## 프로젝트 웹접근성
 - Open-WAX 결과 : error 0<br>
