@@ -2,7 +2,9 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay, EffectFade } from "swiper/modules";
 
+
 const SectionVisual = () => {
+
   const slidesData = [
     {
       title: "썸머 시즌오프\n2주차 혜택 OPEN",
