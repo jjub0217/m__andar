@@ -15,18 +15,15 @@ const ProductItem = ({ product, rank}) => {
           {!product.description ? (
             <div className="price_area">
               {product.discount ? (
-                <strong className="price_discount">
-                  <span className="blind">할인율</span>
+                <strong className="price_discount" aria-label="할인율">
                   {product.discount}%
                 </strong>
               ) : null}
-              <span className="price_cur">
-                <span className="blind">할인가격</span>
+              <span className="price_cur" aria-label="할인가격">
                 {product.currentPrice.toLocaleString()}원
               </span>
               {product.originalPrice ? (
-                <span className="price_origin">
-                  <span className="blind">원래 가격</span>
+                <span className="price_origin" aria-label="원래 가격">
                   {product.originalPrice.toLocaleString()}원
                 </span>
               ) : null}

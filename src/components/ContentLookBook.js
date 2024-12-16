@@ -12,7 +12,6 @@ const ContentLookBook = ({ data }) => {
             {data.title.split("\n").map((text, i) => (
               <span key={i}>
                 {text}
-                <br />
               </span>
             ))}
           </h3>
@@ -20,7 +19,6 @@ const ContentLookBook = ({ data }) => {
             {data.description.split("\n").map((text, i) => (
               <span key={i}>
                 {text}
-                <br />
               </span>
             ))}
           </p>

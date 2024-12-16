@@ -18,8 +18,7 @@ const MarkList = () => {
     <ul className="mark_list">
       {marks.map((mark, index) => (
         <li className="mark_item" key={index}>
-          <a href={mark.href} className={mark.className}>
-            <span className="blind">{mark.label}</span>
+          <a href={mark.href} className={mark.className} aria-label={mark.label}>
           </a>
         </li>
       ))}

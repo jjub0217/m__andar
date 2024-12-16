@@ -26,9 +26,15 @@ const Header = ({
     setIsSearchVisible((prev) => {
       const newExpand = !prev;
       document.body.classList.toggle("scroll_hide", newExpand);
-      inputSearchAreaRef.current.classList.toggle("is_show");
+      // inputSearchAreaRef.current.classList.toggle("is_show");
       return newExpand;
     });
+  };
+  const navProps = {
+    expandedNavItem,
+    setExpandedNavItem,
+    expandedEventItem,
+    setExpandedEventItems,
   };
 
   useEffect(() => {
@@ -42,13 +48,14 @@ const Header = ({
     };
   }, []);
 
+  useEffect(() => {console.log(isSearchVisible);}, [isSearchVisible]);
+
 
   return (
     <header className={`header ${scrollTop ? "scrollTop" : ""}`}>
       <div className="logo_wrap">
         <h1 className="logo">
-          <a href="/">
-            <span className="blind">메인</span>
+          <a href="/" aria-label="메인">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="80"
@@ -112,8 +119,7 @@ const Header = ({
           </button>
         </div>
         <div className="tools_area">
-          <a href="" className="link_cart">
-            <span className="blind">장바구니</span>
+          <a href="" className="link_cart" aria-label="장바구니">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -127,8 +133,7 @@ const Header = ({
             </svg>
             <span className="count">0</span>
           </a>
-          <a href="" className="link_profile">
-            <span className="blind">내 정보</span>
+          <a href="" className="link_profile" aria-label="내 정보">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -143,31 +148,37 @@ const Header = ({
           </a>
         </div>
       </div>
-      <Menu />
-      <form className="input_search_area" ref={inputSearchAreaRef}>
-        <fieldset className="fieldset">
-          <legend className="blind">검색폼</legend>
-          <button
-            className="search_area_close_btn"
-            aria-label="닫기버튼"
-          ></button>
-          <div className="input_area">
-            <input
-              type="text"
-              id="search"
-              className="input"
-              title="검색어를 입력해주세요."
-              placeholder="검색어를 입력해주세요"
-              aria-live="assertive"
-              aria-atomic="false"
-            />
-            <button className="input_btn" aria-label="검색버튼"></button>
-          </div>
-          <label htmlFor="search">
-            <span className="blind">검색</span>
-          </label>
-        </fieldset>
-      </form>
+      {scrollTop && <Menu />}
+      {isSearchVisible && (
+        <form
+          className={`input_search_area ${isSearchVisible ? "is_show" : ""}`}
+          ref={inputSearchAreaRef}
+        >
+          <fieldset className="fieldset">
+            <legend className="blind">검색폼</legend>
+            <button
+              className="search_area_close_btn"
+              aria-label="닫기버튼"
+            ></button>
+            <div className="input_area">
+              <input
+                type="text"
+                id="search"
+                className="input"
+                title="검색어를 입력해주세요."
+                placeholder="검색어를 입력해주세요"
+                aria-live="assertive"
+                aria-atomic="false"
+              />
+              <button className="input_btn" aria-label="검색버튼"></button>
+            </div>
+            <label htmlFor="search">
+              <span className="blind">검색</span>
+            </label>
+          </fieldset>
+        </form>
+      )}
+
       <nav className={`gnb ${isGnbVisible ? "is_show" : ""}`} ref={gnbRef}>
         <div className="login_wrap">
           <div className="login_link_area">
@@ -184,24 +195,23 @@ const Header = ({
             &nbsp;확인하기
           </p>
         </div>
-        <div className="nav_area">
-          <Nav
-            expandedNavItem={expandedNavItem}
-            setExpandedNavItem={setExpandedNavItem}
-            expandedEventItem={expandedEventItem}
-            setExpandedEventItems={setExpandedEventItems}
-          />
-          <AreaEvent />
-          <div className="brand_info_area">
-            <a href="" className="brand_info_link">
-              브랜드 스토리
-            </a>
-            <a href="" className="brand_info_link">
-              전국매장안내
-            </a>
+        {isGnbVisible && (
+          <div className="nav_area">
+            <Nav
+              {...navProps}
+            />
+            <AreaEvent />
+            <div className="brand_info_area">
+              <a href="" className="brand_info_link">
+                브랜드 스토리
+              </a>
+              <a href="" className="brand_info_link">
+                전국매장안내
+              </a>
+            </div>
+            <AreaRecent />
           </div>
-          <AreaRecent />
-        </div>
+        )}
         <button
           type="button"
           className="gnb_close_btn"

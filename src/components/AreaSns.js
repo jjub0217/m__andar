@@ -17,8 +17,7 @@ const AreaSns = () => {
       <ul className="sns_list">
         {snsLinks.map((link, index) => (
           <li key={index}>
-            <a href={link.href} className={link.className}>
-              <span className="blind">{link.label}</span>
+            <a href={link.href} className={link.className}aria-label={link.label}>
             </a>
           </li>
         ))}

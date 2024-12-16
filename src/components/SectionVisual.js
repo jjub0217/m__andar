@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay, EffectFade } from "swiper/modules";
 
@@ -87,6 +87,11 @@ const SectionVisual = () => {
         "안다르 심리스 레깅스 팬티를 착용한 상태에서도 속옷 자국이 보이지 않는 레깅스를 입은 여성의 뒷모습",
     },
   ];
+    useEffect(() => {
+      // LCP Placeholder 제거
+      const placeholder = document.getElementById("lcp-placeholder");
+      if (placeholder) placeholder.remove();
+    }, []);
 
   return (
     <section className="section_visual">
@@ -100,6 +105,7 @@ const SectionVisual = () => {
         }}
         navigation={{ clickable: true, nextEl: ".next", prevEl: ".prev" }}
         effect={"fade"}
+        initialSlide={0}
         // autoplay={{
         //   delay: 5000,
         //   disableOnInteraction: false,
@@ -114,7 +120,6 @@ const SectionVisual = () => {
                   {slide.title.split("\n").map((text, i) => (
                     <span key={i}>
                       {text}
-                      <br />
                     </span>
                   ))}
                 </strong>
@@ -122,13 +127,11 @@ const SectionVisual = () => {
                   {slide.desc.split("\n").map((text, i) => (
                     <span key={i}>
                       {text}
-                      <br />
                     </span>
                   ))}
                 </p>
               </div>
               <div className="image_box">
-                {/* <img src={slide.imgSrc} alt={slide.altText} /> */}
                 <picture>
                   <source srcSet={slide.webpSrc} type="image/webp" />
                   <img src={slide.imgSrc} alt="대체 텍스트" loading="eager" />

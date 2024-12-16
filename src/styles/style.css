@@ -1058,18 +1058,22 @@ fieldset {
   color: #fff;
 }
 .section_visual .swiper .text_box .title {
+  display: flex;
+  flex-direction: column;
   font-size: 28px;
   font-weight: 600;
   line-height: 1.3;
 }
 .section_visual .swiper .text_box .desc {
+  display: flex;
+  flex-direction: column;
   padding-top: 15px;
   font-size: 17px;
 }
 .section_visual .swiper .image_box {
   position: relative;
   padding-bottom: 80vh;
-  overflow: hidden; /* 이미지 넘침 방지 */
+  overflow: hidden;
 }
 .section_visual .swiper .image_box picture,
 .section_visual .swiper .image_box img {
@@ -1227,6 +1231,8 @@ fieldset {
   margin: 20px 0 12px;
 }
 .section_lookBook .text_box .headline {
+  display: flex;
+  flex-direction: column;
   line-height: 35px;
 }
 .section_lookBook .link_lookbook {
@@ -1265,6 +1271,8 @@ fieldset {
   height: 100%;
 }
 .section_lookBook .desc {
+  display: flex;
+  flex-direction: column;
   line-height: 26px;
 }
 .section_lookBook .label_more {

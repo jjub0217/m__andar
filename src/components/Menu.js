@@ -80,13 +80,16 @@ const Menu = () => {
           onClick={toggleMenu}
         ></button>
       </div>
+      {isMenuOpen && (
       <div
         id="all_menu_area"
         className="all_menu_area"
         ref={allMenuArea}
         style={{ height: isMenuOpen ? `${menuHeight}px` : "0" }}
       >
-        <ul className="all_menu_list">
+        <ul
+          className="all_menu_list"
+        >
           {allMenuItems.map((item, index) => (
             <li
               key={index}
@@ -99,6 +102,7 @@ const Menu = () => {
           ))}
         </ul>
       </div>
+      )}
     </div>
   );
 };
