@@ -1069,7 +1069,9 @@ fieldset {
 .section_visual .swiper .image_box {
   position: relative;
   padding-bottom: 80vh;
+  overflow: hidden; /* 이미지 넘침 방지 */
 }
+.section_visual .swiper .image_box picture,
 .section_visual .swiper .image_box img {
   position: absolute;
   top: 0;
