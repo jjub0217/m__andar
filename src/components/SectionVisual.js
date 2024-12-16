@@ -132,10 +132,10 @@ const SectionVisual = () => {
                 </p>
               </div>
               <div className="image_box">
-                <picture>
-                  <source srcSet={slide.webpSrc} type="image/webp" />
-                  <img src={slide.imgSrc} alt="대체 텍스트" loading="eager" />
-                </picture>
+                {/* <picture> */}
+                  {/* <source srcSet={slide.webpSrc} type="image/webp" /> */}
+                  <img src={slide.imgSrc} alt="대체 텍스트"  />
+                {/* </picture> */}
               </div>
             </a>
           </SwiperSlide>
