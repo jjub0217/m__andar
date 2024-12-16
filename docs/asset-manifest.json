@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/m__andar/static/css/main.4af2089d.css",
-    "main.js": "/m__andar/static/js/main.2ce4fa76.js",
+    "main.js": "/m__andar/static/js/main.7c9c0115.js",
     "static/media/img_membership.jpg": "/m__andar/static/media/img_membership.ea007be7213faf5d3ba0.jpg",
     "static/media/img_visual_item3.jpeg": "/m__andar/static/media/img_visual_item3.e57a3ed01722dc2d056e.jpeg",
     "static/media/img_store.jpg": "/m__andar/static/media/img_store.6afd2873ef1392ab78de.jpg",
@@ -18,12 +18,12 @@
     "static/media/img_visual_item10.jpg": "/m__andar/static/media/img_visual_item10.dbeeda84e0c9dace5273.jpg",
     "static/media/img_visual_item9.jpg": "/m__andar/static/media/img_visual_item9.409ea9939145a3b2d5d0.jpg",
     "static/media/img_event_item2.jpg": "/m__andar/static/media/img_event_item2.670c7f3262a883175fce.jpg",
-    "static/media/img_visual_item1.webp": "/m__andar/static/media/img_visual_item1.20ed4e17a12d006f8e41.webp",
     "static/media/img_search_background.jpg": "/m__andar/static/media/img_search_background.80f3cd7fa96e05206477.jpg",
     "static/media/img_visual_item3.webp": "/m__andar/static/media/img_visual_item3.ebf3877b0dfc540939f2.webp",
     "static/media/img_swim_pants_womans.jpg": "/m__andar/static/media/img_swim_pants_womans.ee61d410750fe58c9386.jpg",
     "static/media/img_leggins_calf_signature_womans.jpg": "/m__andar/static/media/img_leggins_calf_signature_womans.0ec4744d8ec10de26aa9.jpg",
     "static/media/img_socks_nonslip_performance .jpg": "/m__andar/static/media/img_socks_nonslip_performance .4a50356d12809929a29c.jpg",
+    "static/media/img_visual_item1.webp": "/m__andar/static/media/img_visual_item1.968dec908548efce820d.webp",
     "static/media/img_slacks_tapered_womans.jpeg": "/m__andar/static/media/img_slacks_tapered_womans.af52a1d8e2c588fdf011.jpeg",
     "static/media/img_leggins_tension_above_womans.jpg": "/m__andar/static/media/img_leggins_tension_above_womans.b2a1899252efcd27c631.jpg",
     "static/media/img_bratop_item9.jpg": "/m__andar/static/media/img_bratop_item9.3c0e6e9b8772b3993fcc.jpg",
@@ -91,10 +91,10 @@
     "static/media/ico_certification_item2.png": "/m__andar/static/media/ico_certification_item2.cac8f5927e37a1025eb9.png",
     "index.html": "/m__andar/index.html",
     "main.4af2089d.css.map": "/m__andar/static/css/main.4af2089d.css.map",
-    "main.2ce4fa76.js.map": "/m__andar/static/js/main.2ce4fa76.js.map"
+    "main.7c9c0115.js.map": "/m__andar/static/js/main.7c9c0115.js.map"
   },
   "entrypoints": [
     "static/css/main.4af2089d.css",
-    "static/js/main.2ce4fa76.js"
+    "static/js/main.7c9c0115.js"
   ]
 }
