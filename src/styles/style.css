@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap");
 @font-face {
   font-family: "Gilroy";
   src: url("../fonts/Gilroy-Regular.woff2") format("woff2");
@@ -1083,6 +1082,11 @@ fieldset {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.section_visual .swiper .image_box source {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 .section_visual .swiper .pagination {
   display: flex;
