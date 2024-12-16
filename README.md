@@ -23,10 +23,24 @@
 <img src="https://github.com/user-attachments/assets/49f2b268-5474-41d8-9a45-fac0e541c484" width=800> <br>
 
 ## 프로젝트 웹접근성
+- chrome Lighthouse 결과 :<br>
+모바일 디바이스의 접근성 표준을 준수하였는지 로컬에서 검사할수 있는 goole 의 lighthouse 로 검사하면 개선할점이 Accessibility  항목과 Best Practices 항목에서 나타납니다.  <br>
+[1] 데스크탑
+<img src="https://github.com/user-attachments/assets/70f205ee-da7a-4e35-8a9f-1e7ef1b73c14" width=800> <br>
+[2] 모바일
+<img src="https://github.com/user-attachments/assets/e9309926-e3e4-4a33-95a0-f0dba811163e" width=800> <br>
 - Open-WAX 결과 : error 0<br>
 <img src="https://github.com/jjub0217/beautiful.github.io/assets/62126380/0f9f41f0-4da2-458b-89f0-2b16d965d493" width=270> <br>
 - WAVE 결과: error 0<br>
-<img src="https://github.com/jjub0217/beautiful.github.io/assets/62126380/7b4df600-c44e-4208-8c23-cd6b8db49c6d" width=800>
+<img src="https://github.com/user-attachments/assets/85165959-ca60-41f8-84a6-522e526533da" width=800>
+
+## 모바일 디바이스 검수
+- 안드로이드 Note20 울트라
+<video src="https://github.com/user-attachments/assets/c305df3d-f599-4293-a428-3eb1d8ca8716" autoplay muted playsinline loop></video>
+- 아이폰 SE2 
+<video src="https://github.com/user-attachments/assets/44968861-ae50-4ee1-8e9b-c0906d7a6a89" autoplay muted playsinline loop></video>
+- 아이패드 6
+<video src="https://github.com/user-attachments/assets/3708716e-9d26-4686-b656-216b2ed4888a" autoplay muted playsinline loop></video>
 
 
 ## 기술 스택

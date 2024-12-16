@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/m__andar/static/css/main.4af2089d.css",
-    "main.js": "/m__andar/static/js/main.9fa71c39.js",
-    "static/media/img_visual_item1.jpeg": "/m__andar/static/media/img_visual_item1.5916f7b85634381e237a.jpeg",
+    "main.js": "/m__andar/static/js/main.2ce4fa76.js",
     "static/media/img_membership.jpg": "/m__andar/static/media/img_membership.ea007be7213faf5d3ba0.jpg",
     "static/media/img_visual_item3.jpeg": "/m__andar/static/media/img_visual_item3.e57a3ed01722dc2d056e.jpeg",
     "static/media/img_store.jpg": "/m__andar/static/media/img_store.6afd2873ef1392ab78de.jpg",
@@ -14,11 +13,14 @@
     "static/media/img_polo_shirt_airwinds_mens.jpg": "/m__andar/static/media/img_polo_shirt_airwinds_mens.0805eebc01dd390f40f6.jpg",
     "static/media/img_swim_lash_pants_womans.jpg": "/m__andar/static/media/img_swim_lash_pants_womans.7285acf4700ea001e25b.jpg",
     "static/media/img_visual_item7.jpg": "/m__andar/static/media/img_visual_item7.7d253f2a50e16d8f8a0f.jpg",
+    "static/media/img_visual_item1.jpeg": "/m__andar/static/media/img_visual_item1.55899cafcbeaf4358506.jpeg",
     "static/media/img_visual_item2.jpg": "/m__andar/static/media/img_visual_item2.bd50a6ddd183afc866fd.jpg",
     "static/media/img_visual_item10.jpg": "/m__andar/static/media/img_visual_item10.dbeeda84e0c9dace5273.jpg",
     "static/media/img_visual_item9.jpg": "/m__andar/static/media/img_visual_item9.409ea9939145a3b2d5d0.jpg",
     "static/media/img_event_item2.jpg": "/m__andar/static/media/img_event_item2.670c7f3262a883175fce.jpg",
+    "static/media/img_visual_item1.webp": "/m__andar/static/media/img_visual_item1.20ed4e17a12d006f8e41.webp",
     "static/media/img_search_background.jpg": "/m__andar/static/media/img_search_background.80f3cd7fa96e05206477.jpg",
+    "static/media/img_visual_item3.webp": "/m__andar/static/media/img_visual_item3.ebf3877b0dfc540939f2.webp",
     "static/media/img_swim_pants_womans.jpg": "/m__andar/static/media/img_swim_pants_womans.ee61d410750fe58c9386.jpg",
     "static/media/img_leggins_calf_signature_womans.jpg": "/m__andar/static/media/img_leggins_calf_signature_womans.0ec4744d8ec10de26aa9.jpg",
     "static/media/img_socks_nonslip_performance .jpg": "/m__andar/static/media/img_socks_nonslip_performance .4a50356d12809929a29c.jpg",
@@ -29,6 +31,7 @@
     "static/media/img_shorts_mid_womans.jpg": "/m__andar/static/media/img_shorts_mid_womans.64af613e703e9d5df432.jpg",
     "static/media/img_slacks_brushed_bootcut_air_womans.jpg": "/m__andar/static/media/img_slacks_brushed_bootcut_air_womans.ffdc972257624e923b61.jpg",
     "static/media/img_leggins_ankle_signature_womans.jpg": "/m__andar/static/media/img_leggins_ankle_signature_womans.cc505caf5c95308b794a.jpg",
+    "static/media/img_visual_item5.webp": "/m__andar/static/media/img_visual_item5.a90e726de68401ee7c99.webp",
     "static/media/img_bratop_item10.jpg": "/m__andar/static/media/img_bratop_item10.564ded29b9c29a266a26.jpg",
     "static/media/img_slacks_tapered_mens.jpg": "/m__andar/static/media/img_slacks_tapered_mens.09017e99522fd570d468.jpg",
     "static/media/img_bratop_item5.jpg": "/m__andar/static/media/img_bratop_item5.98410656faf777fe0ff4.jpg",
@@ -53,6 +56,7 @@
     "static/media/img_banner_item2.jpg": "/m__andar/static/media/img_banner_item2.14889bf13ec897a6c969.jpg",
     "static/media/img_bratop_item6.jpg": "/m__andar/static/media/img_bratop_item6.3b33dc3a8cc42c2ff34d.jpg",
     "static/media/img_polo_short_pk_item1_mens.jpg": "/m__andar/static/media/img_polo_short_pk_item1_mens.925a35a489b973341fce.jpg",
+    "static/media/img_visual_item7.webp": "/m__andar/static/media/img_visual_item7.52d78206400a94ee4a74.webp",
     "static/media/img_leggins_ankle_pocket_womans.jpg": "/m__andar/static/media/img_leggins_ankle_pocket_womans.b3e604800dd74499742f.jpg",
     "static/media/img_tshirt_slim_air_womans.jpg": "/m__andar/static/media/img_tshirt_slim_air_womans.4d2c5ee1511b3ddfc4fd.jpg",
     "static/media/img_bratop_item2.jpg": "/m__andar/static/media/img_bratop_item2.fdfb855b995c274e55f7.jpg",
@@ -70,21 +74,27 @@
     "static/media/img_underwear_seamless.jpg": "/m__andar/static/media/img_underwear_seamless.df5a0e33edc9a94d2458.jpg",
     "static/media/img_leggins_seamless_underwear_womans.jpg": "/m__andar/static/media/img_leggins_seamless_underwear_womans.9af394b68aa405f49232.jpg",
     "static/media/img_leggins_high_rise_womans.jpg": "/m__andar/static/media/img_leggins_high_rise_womans.ce5aa325a8dbc64d2908.jpg",
+    "static/media/img_visual_item8.webp": "/m__andar/static/media/img_visual_item8.18cbb6496ac6fdb5cbb1.webp",
+    "static/media/img_visual_item9.webp": "/m__andar/static/media/img_visual_item9.cff0b4148a44257a066a.webp",
     "static/media/img_leggins_knee_signature_womans.jpg": "/m__andar/static/media/img_leggins_knee_signature_womans.19e7184b1092cd12e711.jpg",
     "static/media/img_bratop_item3.jpg": "/m__andar/static/media/img_bratop_item3.7c61f32151ab0c71f03e.jpg",
     "static/media/img_slacks_ice_womans.jpg": "/m__andar/static/media/img_slacks_ice_womans.10652d76c9c7fddeffa9.jpg",
+    "static/media/img_visual_item2.webp": "/m__andar/static/media/img_visual_item2.c771aee9906e3fd9b86b.webp",
     "static/media/img_mat_relax_airsoft.jpg": "/m__andar/static/media/img_mat_relax_airsoft.6a844444662439428397.jpg",
+    "static/media/img_visual_item4.webp": "/m__andar/static/media/img_visual_item4.a175a93083a8f612c8fa.webp",
+    "static/media/img_visual_item6.webp": "/m__andar/static/media/img_visual_item6.8f566d666faf601a01ee.webp",
     "static/media/Gilroy-Medium.woff2": "/m__andar/static/media/Gilroy-Medium.b4ed01821d60f0f1d37b.woff2",
+    "static/media/img_visual_item10.webp": "/m__andar/static/media/img_visual_item10.009a339143d50637e2f6.webp",
     "static/media/Gilroy-Bold.woff2": "/m__andar/static/media/Gilroy-Bold.43c400e0603c24dac747.woff2",
     "static/media/Gilroy-SemiBold.woff2": "/m__andar/static/media/Gilroy-SemiBold.72abf1d6d4e322ad0fae.woff2",
     "static/media/Gilroy-Regular.woff2": "/m__andar/static/media/Gilroy-Regular.6a890c8ab9e195f54e58.woff2",
     "static/media/ico_certification_item2.png": "/m__andar/static/media/ico_certification_item2.cac8f5927e37a1025eb9.png",
     "index.html": "/m__andar/index.html",
     "main.4af2089d.css.map": "/m__andar/static/css/main.4af2089d.css.map",
-    "main.9fa71c39.js.map": "/m__andar/static/js/main.9fa71c39.js.map"
+    "main.2ce4fa76.js.map": "/m__andar/static/js/main.2ce4fa76.js.map"
   },
   "entrypoints": [
     "static/css/main.4af2089d.css",
-    "static/js/main.9fa71c39.js"
+    "static/js/main.2ce4fa76.js"
   ]
 }
