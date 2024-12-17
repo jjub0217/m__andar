@@ -27,9 +27,10 @@ const AreaBanner = () => {
         modules={[Pagination, Autoplay]}
         loop
         pagination={{
-          clickable: true, 
-          el: ".pagination", 
-          type: "fraction" }}
+          clickable: true,
+          el: ".pagination",
+          type: "fraction",
+        }}
         autoplay={{
           delay: 4000,
           disableOnInteraction: false,
@@ -40,7 +41,14 @@ const AreaBanner = () => {
           <SwiperSlide key={index}>
             <a href={banner.link}>
               <div className="image_box">
-                <img src={banner.imgSrc} alt={banner.altText} />
+                <picture>
+                  <source srcSet={banner.webpSrc} type="image/webp" />
+                  <img
+                    src={banner.imgSrc}
+                    alt={banner.altText}
+                    loading="eager"
+                  />
+                </picture>
               </div>
             </a>
           </SwiperSlide>
