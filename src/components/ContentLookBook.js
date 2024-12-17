@@ -10,21 +10,20 @@ const ContentLookBook = ({ data }) => {
         <div className="text_box">
           <h3 className="headline">
             {data.title.split("\n").map((text, i) => (
-              <span key={i}>
-                {text}
-              </span>
+              <span key={i}>{text}</span>
             ))}
           </h3>
           <p className="desc">
             {data.description.split("\n").map((text, i) => (
-              <span key={i}>
-                {text}
-              </span>
+              <span key={i}>{text}</span>
             ))}
           </p>
         </div>
         <div className="image_box">
-          <img src={data.imgSrc} alt={data.altText} />
+          <picture>
+            <source srcSet={data.webpSrc} type="image/webp" />
+            <img src={data.imgSrc} alt={data.altText} loading="eager" />
+          </picture>
         </div>
         <span className="label_more">보러가기</span>
       </a>

@@ -49,7 +49,14 @@ const ProductItem = ({ product, rank}) => {
             <img src={product.badgeImgSrc} alt={product.badgeAltText} />
           </div>
         ) : null}
-        <img src={product.imgSrc} alt={product.altText} />
+        {product.webpSrc ? (
+          <picture>
+            <source srcSet={product.webpSrc} type="image/webp" />
+            <img src={product.imgSrc} alt={product.altText} loading="eager" />
+          </picture>
+        ) : (
+          <img src={product.imgSrc} alt={product.altText} />
+        )}
       </div>
     </a>
   );

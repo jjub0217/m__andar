@@ -10,11 +10,13 @@ const AreaBanner = () => {
     {
       link: "",
       imgSrc: require("../images/img_banner_item1.jpg"),
+      webpSrc: require("../images/img_banner_item1.webp"),
       altText: "3천원 할인쿠폰",
     },
     {
       link: "",
       imgSrc: require("../images/img_banner_item2.jpg"),
+      webpSrc: require("../images/img_banner_item2.webp"),
       altText: "멤버십 전용 혜택 할인",
     },
   ];

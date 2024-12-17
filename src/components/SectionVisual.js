@@ -88,7 +88,6 @@ const SectionVisual = () => {
     },
   ];
     useEffect(() => {
-      // LCP Placeholder 제거
       const placeholder = document.getElementById("lcp-placeholder");
       if (placeholder) placeholder.remove();
     }, []);
@@ -118,23 +117,19 @@ const SectionVisual = () => {
               <div className="text_box">
                 <strong className="title">
                   {slide.title.split("\n").map((text, i) => (
-                    <span key={i}>
-                      {text}
-                    </span>
+                    <span key={i}>{text}</span>
                   ))}
                 </strong>
                 <p className="desc">
                   {slide.desc.split("\n").map((text, i) => (
-                    <span key={i}>
-                      {text}
-                    </span>
+                    <span key={i}>{text}</span>
                   ))}
                 </p>
               </div>
               <div className="image_box">
                 <picture>
                   <source srcSet={slide.webpSrc} type="image/webp" />
-                  <img src={slide.imgSrc} alt="대체 텍스트" loading="eager" />
+                  <img src={slide.imgSrc} alt={slide.altText} loading="eager" />
                 </picture>
               </div>
             </a>

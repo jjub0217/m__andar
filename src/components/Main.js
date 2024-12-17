@@ -17,6 +17,7 @@ const Main = () => {
       currentPrice: 49000,
       originalPrice: 98000,
       imgSrc: require("../images/img_leggins_knee_signature_womans.jpg"),
+      webpSrc: require("../images/img_leggins_knee_signature_womans.webp"),
       altText: "1+1 다크 그레이 5부 레깅스, 운동용 슬림핏 디자인",
       tags: ["애슐레저 1위"],
     },
@@ -26,6 +27,7 @@ const Main = () => {
       currentPrice: 49000,
       originalPrice: 98000,
       imgSrc: require("../images/img_leggins_mid_signature_womans.jpg"),
+      webpSrc: require("../images/img_leggins_mid_signature_womans.webp"),
       altText: "야외에서 화이트 크롭탑과 3부 레깅스를 입고 스트레칭하는 여성",
       tags: ["애슐레저 1위"],
     },
@@ -35,6 +37,7 @@ const Main = () => {
       currentPrice: 49000,
       originalPrice: 98000,
       imgSrc: require("../images/img_leggins_ankle_signature_womans.jpg"),
+      webpSrc: require("../images/img_leggins_ankle_signature_womans.webp"),
       altText:
         "연한 초록색 에어쿨링 지니 시그니처 레깅스, 1+1, 8.2부와 9부 길이 선택 가능, 운동용으로 적합한 슬림핏 디자인",
       tags: ["NEW 컬러 출시", "애슐레저 1위"],
@@ -45,6 +48,7 @@ const Main = () => {
       currentPrice: 49000,
       originalPrice: 98000,
       imgSrc: require("../images/img_leggins_seamless_underwear_womans.jpg"),
+      webpSrc: require("../images/img_leggins_seamless_underwear_womans.webp"),
       altText: "크림색 티셔츠와 베이지색 심리스 팬티를 입은 여성, 뒷모습",
       tags: [],
     },
@@ -54,6 +58,7 @@ const Main = () => {
       currentPrice: 49000,
       originalPrice: 98000,
       imgSrc: require("../images/img_leggins_above_womans.jpg"),
+      webpSrc: require("../images/img_leggins_above_womans.webp"),
       altText: "크롭탑과 4.5부 레깅스를 입고 도심에서 달리고 있는 여성",
       tags: ["애슐레저 1위"],
     },
@@ -63,6 +68,7 @@ const Main = () => {
       currentPrice: 49000,
       originalPrice: 98000,
       imgSrc: require("../images/img_leggins_calf_signature_womans.jpg"),
+      webpSrc: require("../images/img_leggins_calf_signature_womans.webp"),
       altText: "야외에서 크롭탑과 7부 레깅스를 입고 운동하는 두 여성",
       tags: ["애슐레저 1위"],
     },
@@ -72,6 +78,7 @@ const Main = () => {
       currentPrice: 49000,
       originalPrice: 98000,
       imgSrc: require("../images/img_leggins_high_rise_womans.jpg"),
+      webpSrc: require("../images/img_leggins_high_rise_womans.webp"),
       altText: "스포츠 브라와 8.2부 또는 9부 레깅스를 입고 스트레칭 중인 여성",
       tags: [],
     },
@@ -81,6 +88,7 @@ const Main = () => {
       currentPrice: 49000,
       originalPrice: 98000,
       imgSrc: require("../images/img_leggins_sharon_bootcut_womans.jpg"),
+      webpSrc: require("../images/img_leggins_sharon_bootcut_womans.webp"),
       altText:
         "크롭탑과 롱부츠컷 레깅스를 입고 실내에서 운동 자세를 취하고 있는 여성",
       tags: ["애슐레저 1위"],
@@ -91,6 +99,7 @@ const Main = () => {
       currentPrice: 49000,
       originalPrice: 98000,
       imgSrc: require("../images/img_leggins_tension_above_womans.jpg"),
+      webpSrc: require("../images/img_leggins_tension_above_womans.webp"),
       altText:
         "검정색 짧은 소매 크롭탑과 허벅지 중간까지 오는 숏레깅스를 입고 벽에 기대고 있는 여성",
       tags: ["7일 한정 특가"],
@@ -101,6 +110,7 @@ const Main = () => {
       currentPrice: 49000,
       originalPrice: 98000,
       imgSrc: require("../images/img_leggins_ankle_pocket_womans.jpg"),
+      webpSrc: require("../images/img_leggins_ankle_pocket_womans.webp"),
       altText:
         "검은색 발목 길이 레깅스를 입고 허리에 재킷을 묶고, 레깅스 포켓에 스마트폰을 넣은 여성의 측면 모습",
       tags: [],
@@ -114,6 +124,7 @@ const Main = () => {
       currentPrice: 59000,
       originalPrice: 87000,
       imgSrc: require("../images/img_bratop_item1.jpg"),
+      webpSrc: require("../images/img_bratop_item1.webp"),
       altText: "연분홍색 크롭탑과 보라색 레깅스를 입고 요가 자세를 취하는 여성",
       tags: ["이벤트 한정 세트"],
     },
@@ -123,6 +134,7 @@ const Main = () => {
       currentPrice: 29000,
       originalPrice: 39000,
       imgSrc: require("../images/img_bratop_item2.jpg"),
+      webpSrc: require("../images/img_bratop_item2.webp"),
       altText:
         "햇빛이 비추는 실내에서 회색 크롭탑과 레깅스를 입은 여성이 옆을 응시하는 모습",
       tags: ["라이트 서포트"],
@@ -130,9 +142,10 @@ const Main = () => {
     {
       title: "릴레어 올데이 크롭탑",
       discount: 20,
-      currentPrice:31000,
+      currentPrice: 31000,
       originalPrice: 39000,
       imgSrc: require("../images/img_bratop_item3.jpg"),
+      webpSrc: require("../images/img_bratop_item3.webp"),
       altText: "카키색 크롭탑과 레깅스를 입고 벽에 기대어 있는 여성",
       tags: ["라이트 서포트"],
     },
@@ -142,6 +155,7 @@ const Main = () => {
       currentPrice: 53000,
       originalPrice: 58000,
       imgSrc: require("../images/img_bratop_item4.jpg"),
+      webpSrc: require("../images/img_bratop_item4.webp"),
       altText: "화이트 브라탑과 옐로우 팬츠를 입고 팔을 올린 여성",
       tags: ["라이트 서포트"],
     },
@@ -151,6 +165,7 @@ const Main = () => {
       currentPrice: 18500,
       originalPrice: 37000,
       imgSrc: require("../images/img_bratop_item5.jpg"),
+      webpSrc: require("../images/img_bratop_item5.webp"),
       altText: "연두색 브라탑을 입은 여성과 베이지색 브라탑을 입은 여성",
       tags: [],
     },
@@ -160,6 +175,7 @@ const Main = () => {
       currentPrice: 48000,
       originalPrice: 58000,
       imgSrc: require("../images/img_bratop_item6.jpg"),
+      webpSrc: require("../images/img_bratop_item6.webp"),
       altText: "검은색 브라탑과 레깅스를 입고 권투 글러브를 낀 여성",
       tags: ["미디엄 서포트"],
     },
@@ -169,6 +185,7 @@ const Main = () => {
       currentPrice: 28000,
       originalPrice: 35000,
       imgSrc: require("../images/img_bratop_item7.jpg"),
+      webpSrc: require("../images/img_bratop_item7.webp"),
       altText: "초록색 브라탑과 남색 레깅스를 입은 여성",
       tags: ["NEW 컬러 출시", "라이트 서포트"],
     },
@@ -176,6 +193,7 @@ const Main = () => {
       title: "비 프리 U백 브라탑 (패드 일체형)",
       currentPrice: 35000,
       imgSrc: require("../images/img_bratop_item8.jpg"),
+      webpSrc: require("../images/img_bratop_item8.webp"),
       altText: "초록색 브라탑과 회색 레깅스를 입은 여성이 뒷모습을 보여줌",
       tags: ["미디엄 서포트"],
     },
@@ -185,6 +203,7 @@ const Main = () => {
       currentPrice: 29000,
       originalPrice: 39000,
       imgSrc: require("../images/img_bratop_item9.jpg"),
+      webpSrc: require("../images/img_bratop_item9.webp"),
       altText: "검은색 지퍼 브라탑과 회색 레깅스를 입은 여성의 상반신 모습",
       tags: ["하이 서포트"],
     },
@@ -194,6 +213,7 @@ const Main = () => {
       currentPrice: 49000,
       originalPrice: 58000,
       imgSrc: require("../images/img_bratop_item10.jpg"),
+      webpSrc: require("../images/img_bratop_item10.webp"),
       altText:
         "연한 카키색 크롭탑과 레깅스를 입은 여성이 벽에 기대어 서 있는 모습",
       tags: ["라이트 서포트"],
@@ -207,6 +227,7 @@ const Main = () => {
       currentPrice: 45000,
       originalPrice: 58000,
       imgSrc: require("../images/img_tshirt_air_womans.jpg"),
+      webpSrc: require("../images/img_tshirt_air_womans.webp"),
       altText:
         "연핑크색 티셔츠와 검정색 레깅스를 입은 여성이 운동 중 한 발을 든 모습",
       tags: ["NEW 컬러 출시"],
@@ -217,6 +238,7 @@ const Main = () => {
       currentPrice: 43000,
       originalPrice: 58000,
       imgSrc: require("../images/img_tshirt_slim_air_womans.jpg"),
+      webpSrc: require("../images/img_tshirt_slim_air_womans.webp"),
       altText:
         "베이지와 핑크색 긴 소매 티셔츠를 입고 스트레칭 운동 중인 두 여성, 1+1 프로모션",
     },
@@ -226,6 +248,7 @@ const Main = () => {
       currentPrice: 49000,
       originalPrice: 98000,
       imgSrc: require("../images/img_leggins_ankle_signature_womans.jpg"),
+      webpSrc: require("../images/img_leggins_ankle_signature_womans.webp"),
       altText:
         "연한 초록색 에어쿨링 지니 시그니처 레깅스, 1+1, 8.2부와 9부 길이 선택 가능, 운동용으로 적합한 슬림핏 디자인",
       tags: ["NEW 컬러 출시", "애슐레저 1위"],
@@ -236,6 +259,7 @@ const Main = () => {
       currentPrice: 43000,
       originalPrice: 86000,
       imgSrc: require("../images/img_leggins_above_womans.jpg"),
+      webpSrc: require("../images/img_leggins_above_womans.webp"),
       altText: "크롭탑과 4.5부 레깅스를 입고 도심에서 달리고 있는 여성",
       tags: ["애슐레저 1위"],
     },
@@ -245,6 +269,7 @@ const Main = () => {
       currentPrice: 43000,
       originalPrice: 86000,
       imgSrc: require("../images/img_leggins_knee_signature_womans.jpg"),
+      webpSrc: require("../images/img_leggins_knee_signature_womans.webp"),
       altText: "1+1 다크 그레이 5부 레깅스, 운동용 슬림핏 디자인",
       tags: ["NEW 컬러 출시"],
     },
@@ -254,6 +279,7 @@ const Main = () => {
       currentPrice: 74000,
       originalPrice: 90000,
       imgSrc: require("../images/img_shorts_above_womans.jpg"),
+      webpSrc: require("../images/img_shorts_above_womans.webp"),
       altText:
         "야외에서 흰색 크롭탑과 각각 카키색 및 네이비색 4.5부 쇼츠를 입은 두 여성이 함께 조깅하고 있는 모습",
     },
@@ -263,6 +289,7 @@ const Main = () => {
       currentPrice: 67000,
       originalPrice: 86000,
       imgSrc: require("../images/img_shorts_mid_womans.jpg"),
+      webpSrc: require("../images/img_shorts_mid_womans.webp"),
       altText:
         "해변을 배경으로 흰색 슬리브리스 크롭탑과 연한 핑크색 3.5부 쇼츠를 입은 여성이 난간에 기대어 서 있는 모습",
     },
@@ -272,6 +299,7 @@ const Main = () => {
       currentPrice: 42000,
       originalPrice: 50000,
       imgSrc: require("../images/img_cropt_air_womans.jpg"),
+      webpSrc: require("../images/img_cropt_air_womans.webp"),
       altText:
         "흰색 크롭티와 연회색 조거 팬츠를 입고 달리기를 하는 여성의 모습",
     },
@@ -285,6 +313,7 @@ const Main = () => {
         currentPrice: 49000,
         originalPrice: 98000,
         imgSrc: require("../images/img_leggins_ankle_signature_womans.jpg"),
+        webpSrc: require("../images/img_leggins_ankle_signature_womans.webp"),
         altText:
           "연한 초록색 에어쿨링 지니 시그니처 레깅스, 1+1, 8.2부와 9부 길이 선택 가능, 운동용으로 적합한 슬림핏 디자인",
         tags: ["애슐레저 1위"],
@@ -295,6 +324,7 @@ const Main = () => {
         currentPrice: 43000,
         originalPrice: 86000,
         imgSrc: require("../images/img_leggins_knee_signature_womans.jpg"),
+        webpSrc: require("../images/img_leggins_knee_signature_womans.webp"),
         altText: "1+1 다크 그레이 5부 레깅스, 운동용 슬림핏 디자인",
         tags: ["NEW 컬러 출시", "애슐레저 1위"],
       },
@@ -304,6 +334,7 @@ const Main = () => {
         currentPrice: 72000,
         originalPrice: 82000,
         imgSrc: require("../images/img_polo_short_pk_item2_mens.jpg"),
+        webpSrc: require("../images/img_polo_short_pk_item2_mens.webp"),
         altText: "브라운 컬러의 짧은 소매 폴로 셔츠를 입은 남성, 슬림핏 디자인",
         tags: ["7일 한정 특가"],
       },
@@ -313,6 +344,7 @@ const Main = () => {
         currentPrice: 65000,
         originalPrice: 94000,
         imgSrc: require("../images/img_polo_shirt_air_mens.jpg"),
+        webpSrc: require("../images/img_polo_shirt_air_mens.webp"),
         altText:
           "연한 그린 폴로 셔츠를 입고 골프 클럽을 들고 있는 남성, 1+1 프로모션",
         tags: ["스탠다드핏"],
@@ -323,6 +355,7 @@ const Main = () => {
         currentPrice: 45000,
         originalPrice: 58000,
         imgSrc: require("../images/img_tshirt_slim_air_womans.jpg"),
+        webpSrc: require("../images/img_tshirt_slim_air_womans.webp"),
         altText:
           "베이지와 핑크색 긴 소매 티셔츠를 입고 스트레칭 운동 중인 두 여성, 1+1 프로모션",
         tags: ["NEW 컬러 출시"],
@@ -333,6 +366,7 @@ const Main = () => {
         currentPrice: 59000,
         originalPrice: 69000,
         imgSrc: require("../images/img_slacks_tapered_womans.jpeg"),
+        webpSrc: require("../images/img_slacks_tapered_womans.webp"),
         altText:
           "도심의 횡단보도를 건너며 흰 셔츠와 검정 슬랙스를 입은 여성, 세련된 스타일",
         badgeImgSrc: require("../images/ico_new.png"),
@@ -485,7 +519,7 @@ const Main = () => {
         discount: 50,
         currentPrice: 49000,
         originalPrice: 98000,
-        imgSrc: require("../images/img_socks_nonslip_performance .jpg"),
+        imgSrc: require("../images/img_socks_nonslip_performance.jpg"),
         altText:
           "요가 매트 위에서 크루삭스와 니삭스를 신고 스트레칭 중인 두 여성, 1+1 프로모션",
         tags: ["애슐레저 1위"],
@@ -552,6 +586,7 @@ const Main = () => {
       description:
         "자외선 차단 래쉬가드부터 고급스런 비키니까지.\n안다르와 휴양지에서 인생샷 남겨요.",
       imgSrc: require("../images/img_swim_lash_pants_womans.jpg"),
+      webpSrc: require("../images/img_swim_lash_pants_womans.webp"),
       altText:
         "해변에서 핏되는 래쉬가드와 쇼트팬츠를 입고 서핑 보드와 함께 있는 두 여성 메인",
       products: [
@@ -561,6 +596,7 @@ const Main = () => {
           currentPrice: 59000,
           originalPrice: 88000,
           imgSrc: require("../images/img_swim_lash_pants_set_womans.jpg"),
+          webpSrc: require("../images/img_swim_lash_pants_set_womans.webp"),
           altText:
             "해변에서 핏되는 래쉬가드와 쇼트팬츠를 입고 서핑 보드와 함께 있는 두 여성",
         },
@@ -570,6 +606,7 @@ const Main = () => {
           currentPrice: 37000,
           originalPrice: 39000,
           imgSrc: require("../images/img_swim_pants_womans.jpg"),
+          webpSrc: require("../images/img_swim_pants_womans.webp"),
           altText:
             "해변에서 흰색 긴소매 래쉬가드와 카키색 쇼트팬츠를 입고 서 있는 여성",
         },
@@ -580,6 +617,7 @@ const Main = () => {
       description:
         "여름철 땀 걱정 없는 시원함.\n안다르 AI랩의 놀라운 통기성을 경헙하세요.",
       imgSrc: require("../images/img_polo_shirt_airwinds_mens.jpg"),
+      webpSrc: require("../images/img_polo_shirt_airwinds_mens.webp"),
       altText: "야외에서 그레이 폴로 셔츠를 입고 걷고 있는 남성",
       products: [
         {
@@ -588,6 +626,7 @@ const Main = () => {
           currentPrice: 41600,
           originalPrice: 52000,
           imgSrc: require("../images/img_polo_shirt_airwinds_mens.jpg"),
+          webpSrc: require("../images/img_polo_shirt_airwinds_mens.webp"),
           altText: "야외에서 그레이 폴로 셔츠를 입고 걷고 있는 남성",
           tags: ["릴렉스핏"],
         },
@@ -597,6 +636,7 @@ const Main = () => {
           currentPrice: 44000,
           originalPrice: 55000,
           imgSrc: require("../images/img_polo_short_pk_item1_mens.jpg"),
+          webpSrc: require("../images/img_polo_short_pk_item1_mens.webp"),
           altText:
             "브라운 컬러의 짧은 소매 폴로 셔츠를 입은 남성, 슬림핏 디자인",
           tags: ["스탠다드핏"],
@@ -610,6 +650,7 @@ const Main = () => {
       title: "쿨라이즈 숏슬리브",
       currentPrice: 35000,
       imgSrc: require("../images/img_tshirt_cool_womans.jpg"),
+      webpSrc: require("../images/img_tshirt_cool_womans.webp"),
       altText:
         "하늘색 반팔 티셔츠와 화이트 쇼트팬츠를 입고 있는 여성, 야외 배경",
     },
@@ -617,6 +658,7 @@ const Main = () => {
       title: "쿨라이즈 맨즈 숏슬리브",
       currentPrice: 35000,
       imgSrc: require("../images/img_tshirt_cool_mens.jpg"),
+      webpSrc: require("../images/img_tshirt_cool_mens.webp"),
       altText:
         "화이트 반팔 티셔츠와 연한 색상의 바지를 입고 야외에서 걷고 있는 남성",
     },
@@ -626,6 +668,7 @@ const Main = () => {
       currentPrice: 45000,
       originalPrice: 59000,
       imgSrc: require("../images/img_dress_collar_knit_air.jpg"),
+      webpSrc: require("../images/img_dress_collar_knit_air.webp"),
       altText: "네이비색 카라 원피스를 입고 테니스 라켓을 어깨에 걸친 여성",
     },
     {
@@ -634,6 +677,7 @@ const Main = () => {
       currentPrice: 42000,
       originalPrice: 49000,
       imgSrc: require("../images/img_short_knee_mens.jpg"),
+      webpSrc: require("../images/img_short_knee_mens.webp"),
       altText:
         "야외에서 선글라스를 착용하고 네이비색 반팔 티셔츠와 연한 색상의 쇼트팬츠를 입고 있는 남성",
     },
