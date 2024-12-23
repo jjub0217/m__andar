@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && rsync -av --delete build/ docs/ && mv docs/static/css/main.*.css docs/static/css/main.css && rimraf docs/static/css/*.css.map",
+    "build": "react-scripts build && rsync -av --delete build/ docs/ && rimraf docs/static/css/*.css.map",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
