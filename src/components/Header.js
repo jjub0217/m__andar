@@ -53,7 +53,8 @@ const Header = ({
     <header className={`header ${scrollTop ? "scrollTop" : ""}`}>
       <div className="logo_wrap">
         <h1 className="logo">
-          <a href="/" aria-label="메인">
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+          <a href="" aria-label="메인">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="80"
@@ -195,9 +196,7 @@ const Header = ({
         </div>
         {isGnbVisible && (
           <div className="nav_area">
-            <Nav
-              {...navProps}
-            />
+            <Nav {...navProps} />
             <AreaEvent />
             <div className="brand_info_area">
               <a href="" className="brand_info_link">
