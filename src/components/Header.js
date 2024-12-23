@@ -53,8 +53,9 @@ const Header = ({
     <header className={`header ${scrollTop ? "scrollTop" : ""}`}>
       <div className="logo_wrap">
         <h1 className="logo">
+          <span className="blind">메인</span>
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-          <a href="" aria-label="메인">
+          <a href="">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="80"
