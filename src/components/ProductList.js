@@ -1,6 +1,4 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, EffectFade } from "swiper/modules";
 import ProductItem from "./ProductItem";
 
 const ProductList = ({ data, className }) => {

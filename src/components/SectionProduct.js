@@ -14,6 +14,7 @@ const SectionProduct = ({ title, products }) => {
           </SwiperSlide>
         ))}
       </Swiper>
+      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
       <a href="" className="link_more">
         더보기
       </a>

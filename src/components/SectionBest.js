@@ -15,6 +15,7 @@ const SectionBest = ({ title, products }) => {
       <h2 className="headline">{title}</h2>
       <BestTab activeTab={activeTab} onTabClick={handleTabClick} />
       <ContentBest activeTab={activeTab} products={products} />
+      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
       <a href="" className="link_all">
         <strong className="category">베스트</strong>
         전체보기

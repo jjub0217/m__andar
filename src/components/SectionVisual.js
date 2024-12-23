@@ -113,6 +113,7 @@ const SectionVisual = () => {
       >
         {slidesData.map((slide, index) => (
           <SwiperSlide key={index}>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="" className="link_item">
               <div className="text_box">
                 <strong className="title">
