@@ -1,4 +1,6 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
+import imgVisualJpeg from "./images/img_visual_item1.jpeg";
+import imgVisualWebp from "./images/img_visual_item1.webp";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
@@ -22,6 +24,27 @@ function App() {
     const handleMenuClose = () => {
       toggleGnb(false);
     };
+
+    useEffect(() => {
+      // Preload 이미지 추가
+      const preloadJpeg = document.createElement("link");
+      preloadJpeg.rel = "preload";
+      preloadJpeg.as = "image";
+      preloadJpeg.href = imgVisualJpeg;
+      document.head.appendChild(preloadJpeg);
+
+      const preloadWebp = document.createElement("link");
+      preloadWebp.rel = "preload";
+      preloadWebp.as = "image";
+      preloadWebp.href = imgVisualWebp;
+      document.head.appendChild(preloadWebp);
+
+      return () => {
+        // Cleanup: 추가된 preload 태그 제거
+        document.head.removeChild(preloadJpeg);
+        document.head.removeChild(preloadWebp);
+      };
+    }, []);
 
   return (
     <div className="wrapper">
