@@ -52,7 +52,7 @@ const ProductItem = ({ product, rank}) => {
         {product.webpSrc ? (
           <picture>
             <source srcSet={product.webpSrc} type="image/webp" />
-            <img src={product.imgSrc} alt={product.altText} loading="eager" />
+            <img src={product.imgSrc} alt={product.altText} loading="lazy" />
           </picture>
         ) : (
           <img src={product.imgSrc} alt={product.altText} />

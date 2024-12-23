@@ -97,7 +97,7 @@ const SectionVisual = () => {
       <h2 className="blind">제품 이미지 슬라이드</h2>
       <Swiper
         modules={[Navigation, Pagination, Autoplay, EffectFade]}
-        // loop={true}
+        loop={true}
         pagination={{
           clickable: true,
           el: ".pagination",
@@ -105,10 +105,10 @@ const SectionVisual = () => {
         navigation={{ clickable: true, nextEl: ".next", prevEl: ".prev" }}
         effect={"fade"}
         initialSlide={0}
-        // autoplay={{
-        //   delay: 5000,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+        }}
         className="swiper"
       >
         {slidesData.map((slide, index) => (
@@ -129,7 +129,7 @@ const SectionVisual = () => {
               <div className="image_box">
                 <picture>
                   <source srcSet={slide.webpSrc} type="image/webp" />
-                  <img src={slide.imgSrc} alt={slide.altText} loading="eager" />
+                  <img src={slide.imgSrc} alt={slide.altText} />
                 </picture>
               </div>
             </a>
