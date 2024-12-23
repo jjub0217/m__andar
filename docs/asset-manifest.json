@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/m__andar/static/css/main.52bc5ebc.css",
-    "main.js": "/m__andar/static/js/main.41a1a3f9.js",
+    "main.js": "/m__andar/static/js/main.6e198c37.js",
     "static/media/img_visual_item1.jpeg": "/m__andar/static/media/img_visual_item1.983e8edca5bfbc2d56b6.jpeg",
     "static/media/img_visual_item3.jpeg": "/m__andar/static/media/img_visual_item3.5f1e60f08dc8be8557b2.jpeg",
     "static/media/img_swim_lash_pants_womans.jpg": "/m__andar/static/media/img_swim_lash_pants_womans.a415fed7d201a77ebbde.jpg",
@@ -130,10 +130,10 @@
     "static/media/img_bratop_item7.webp": "/m__andar/static/media/img_bratop_item7.f8c7b218291927d5951f.webp",
     "index.html": "/m__andar/index.html",
     "main.52bc5ebc.css.map": "/m__andar/static/css/main.52bc5ebc.css.map",
-    "main.41a1a3f9.js.map": "/m__andar/static/js/main.41a1a3f9.js.map"
+    "main.6e198c37.js.map": "/m__andar/static/js/main.6e198c37.js.map"
   },
   "entrypoints": [
     "static/css/main.52bc5ebc.css",
-    "static/js/main.41a1a3f9.js"
+    "static/js/main.6e198c37.js"
   ]
 }

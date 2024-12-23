@@ -42,16 +42,6 @@ useEffect(() => {
   preloadWebp.type = "image/webp"; // MIME 타입 설정
   document.head.appendChild(preloadWebp);
 
-  if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.ready.then((registration) => {
-      registration.active.postMessage({
-        type: "CACHE_IMAGES",
-        images: [imgVisualJpeg, imgVisualWebp],
-      });
-    });
-  }
-
-
   return () => {
     // Cleanup: 추가된 preload 태그 제거
     document.head.removeChild(preloadJpeg);
