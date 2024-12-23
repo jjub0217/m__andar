@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from "react";
-import imgVisualJpeg from "./images/img_visual_item1.jpeg";
 import imgVisualWebp from "./images/img_visual_item1.webp";
 import Header from "./components/Header";
 import Main from "./components/Main";
@@ -26,14 +25,6 @@ function App() {
     };
 
 useEffect(() => {
-  // Preload JPEG 이미지 추가
-  const preloadJpeg = document.createElement("link");
-  preloadJpeg.rel = "preload";
-  preloadJpeg.as = "image";
-  preloadJpeg.href = imgVisualJpeg;
-  preloadJpeg.type = "image/jpeg"; // MIME 타입 설정
-  document.head.appendChild(preloadJpeg);
-
   // Preload WebP 이미지 추가
   const preloadWebp = document.createElement("link");
   preloadWebp.rel = "preload";
@@ -44,7 +35,6 @@ useEffect(() => {
 
   return () => {
     // Cleanup: 추가된 preload 태그 제거
-    document.head.removeChild(preloadJpeg);
     document.head.removeChild(preloadWebp);
   };
 }, []);

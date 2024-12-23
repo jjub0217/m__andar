@@ -12,35 +12,8 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.ico"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link
-      rel="preload"
-      as="style"
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
-      crossorigin="anonymous"
-    />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
     <title>안다르-mobile</title>
-    <style>
-      body {
-        font-family: "Gilroy", "Noto Sans KR", Malgun Gothic, "맑은 고딕", Dotum, "돋움",
-        sans-serif;
-        color: #222222;
-        letter-spacing: -0.025em;
-      }
-    </style>
-    <script>
-      window.addEventListener('load', () => {
-        const cssLink = document.querySelector('link[rel="stylesheet"]');
-        if (cssLink) {
-          const preloadLink = document.createElement('link');
-          preloadLink.rel = 'preload';
-          preloadLink.href = cssLink.href; // Ensure it matches the hashed CSS file
-          preloadLink.as = 'style';
-          preloadLink.onload = () => { preloadLink.rel = 'stylesheet'; };
-          document.head.appendChild(preloadLink);
-        }
-      });
-    </script>
   </head>
   <body>
     <div id="root"></div>
