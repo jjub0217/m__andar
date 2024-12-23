@@ -46,7 +46,6 @@ const AreaBanner = () => {
                   <img
                     src={banner.imgSrc}
                     alt={banner.altText}
-                    loading="lazy"
                   />
                 </picture>
               </div>

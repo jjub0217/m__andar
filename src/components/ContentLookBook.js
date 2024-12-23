@@ -22,7 +22,7 @@ const ContentLookBook = ({ data }) => {
         <div className="image_box">
           <picture>
             <source srcSet={data.webpSrc} type="image/webp" />
-            <img src={data.imgSrc} alt={data.altText} loading="lazy" />
+            <img src={data.imgSrc} alt={data.altText}  />
           </picture>
         </div>
         <span className="label_more">보러가기</span>
