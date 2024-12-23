@@ -12,35 +12,28 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.ico"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preload" as="image" href="%PUBLIC_URL%/images/img_visual_item1.jpeg" />
     <link rel="preload" as="image" href="%PUBLIC_URL%/images/img_visual_item1.webp" />
-    <!-- <link rel="preconnect" href="%PUBLIC_URL%/images/img_visual_item1.jpeg" />
-    <link rel="dns-prefetch" href="%PUBLIC_URL%/images/img_visual_item1.jpeg" /> -->
+      <link rel="preload" href="%PUBLIC_URL%/static/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+      <link rel="stylesheet" href="%PUBLIC_URL%/static/css/main.css" />
+    </noscript>
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
     <title>안다르-mobile</title>
-    <!-- <style>
-      #lcp-placeholder {
-        position: relative;
-        padding-bottom: 80vh; 
-        overflow: hidden;
+    <style>
+      body {
+        font-family: "Gilroy", "Noto Sans KR", Malgun Gothic, "맑은 고딕", Dotum, "돋움",
+        sans-serif;
+        color: #222222;
+        letter-spacing: -0.025em;
       }
-      #lcp-placeholder img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover; /* 비율 유지 및 이미지 채우기 */
-      }
-    </style> -->
+    </style>
   </head>
   <body>
-    <!-- <div id="lcp-placeholder">
-      <picture>
-        <source srcset="%PUBLIC_URL%/images/img_visual_item1.webp" type="image/webp" />
-        <img src="%PUBLIC_URL%/images/img_visual_item1.jpg" alt="LCP 이미지"/>
-      </picture>
-    </div> -->
     <div id="root"></div>
   </body>
 </html>
