@@ -201,13 +201,17 @@ const Nav = ({
   useEffect(() => {
     calculateHeight(
       navItemsRef,
+      navItems,
+      navSubListHeights,
       setNavSubListHeights
     );
     calculateHeight(
       eventItemsRef,
+      eventItems,
+      eventSubListHeights,
       setEventSubListHeights
     );
-  }, [expandedNavItem, expandedEventItem]);
+  }, [eventItems, eventSubListHeights,navItems,navSubListHeights, expandedNavItem, expandedEventItem]);
 
 
   return (

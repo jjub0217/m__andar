@@ -1,11 +1,10 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, EffectFade } from "swiper/modules";
 import ProductList from "./ProductList";
 
 const ContentLookBook = ({ data }) => {
   return (
     <div className="lookbook_contents">
+      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
       <a href="" className="link_lookbook">
         <div className="text_box">
           <h3 className="headline">
@@ -22,7 +21,7 @@ const ContentLookBook = ({ data }) => {
         <div className="image_box">
           <picture>
             <source srcSet={data.webpSrc} type="image/webp" />
-            <img src={data.imgSrc} alt={data.altText}  />
+            <img src={data.imgSrc} alt={data.altText} />
           </picture>
         </div>
         <span className="label_more">보러가기</span>

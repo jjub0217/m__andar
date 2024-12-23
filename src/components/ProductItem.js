@@ -2,6 +2,7 @@ import React from "react";
 
 const ProductItem = ({ product, rank}) => {
   return (
+    //  eslint-disable-next-line jsx-a11y/anchor-is-valid 
     <a href="" className="link_item">
       {product.title ? (
         <div className="text_box">
