@@ -176,18 +176,12 @@ const Nav = ({
 
   const toggleExpandedItem = (id, setItems) => {
     setItems((prev) => {
-      // prev 라는 배열에, 내가 누른 항목의 id 가 포함되어있다면
       if (prev.includes(id)) {
-        // prev 라는 배열을 순회돌면서 만난 요소(itemId) 가,
-        // 내가 누른 항목의 id 와 같지 않은 요소들의 나열 배열
         const updated = prev.filter((itemId) => {
           return itemId !== id;
         });
-        // 내가 누른 항목의 id 와 같지 않은 요소들의 나열 배열
         return updated;
       }
-      // 내가 누른 항목의 id 값을 prev 라는 빈 배열에 추가.
-      //  즉, 내가 prev 라는 빈배열에 항목을 누를때마다 항목이 추가된다.
       const updated = [...prev, id];
       return updated;
     });
@@ -195,16 +189,9 @@ const Nav = ({
 
   const calculateHeight = (ref, items, heights, setHeights) => {
     ref.current.forEach((subList, index) => {
-      // 처음엔 빈 객체인 heights
-      // console.log(heights); // {} / {1: 210, 2: 105, 3: 140, 4: 455, ...}
-      // console.log(`항목 id: ${items[index].id}에 대한 높이 계산`); // 항목 id: 1에 대한 높이 계산
-
-      // subList 가 존재하고
-      // subList 들의 높이가 저장되어있는 객체가 빈객체라는것이 맞다면
       if (subList && !heights[items[index].id]) {
         setHeights((prevHeights) => ({
           ...prevHeights,
-          // 각 subList의 높이를, subListHeights 객체에 해당 메뉴 항목의 높이 추가
           [items[index].id]: subList.scrollHeight,
         }));
       }
@@ -214,14 +201,10 @@ const Nav = ({
   useEffect(() => {
     calculateHeight(
       navItemsRef,
-      navItems,
-      navSubListHeights,
       setNavSubListHeights
     );
     calculateHeight(
       eventItemsRef,
-      eventItems,
-      eventSubListHeights,
       setEventSubListHeights
     );
   }, [expandedNavItem, expandedEventItem]);
@@ -257,6 +240,7 @@ const Nav = ({
             >
               {item.subItems.map((subItem, subIndex) => (
                 <li key={subIndex} className="sub_item">
+                  {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                   <a href="">{subItem}</a>
                 </li>
               ))}
@@ -295,6 +279,7 @@ const Nav = ({
                 {item.subItems &&
                   item.subItems.map((subItem, subIndex) => (
                     <li key={subIndex} className="sub_item">
+                      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                       <a href="">{subItem}</a>
                     </li>
                   ))}
@@ -302,6 +287,7 @@ const Nav = ({
             </li>
           ) : (
             <li key={item.id} className="nav_item event_item">
+              {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
               <a href="" className="nav_item_title">
                 EVENT
               </a>

@@ -19,6 +19,12 @@
   src: url("../fonts/Gilroy-Bold.woff2") format("woff2");
   font-weight: 700;
 }
+body {
+  font-family: "Gilroy", Malgun Gothic, "맑은 고딕", Dotum, "돋움", sans-serif;
+  color: #222222;
+  letter-spacing: -0.025em;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -231,7 +237,7 @@ fieldset {
   padding: 5px 6px 4px;
   border: 0.5px solid #8e1f28;
   color: #8e1f28;
-  font-size: 0.7vw;
+  font-size: 11px;
   font-weight: 500;
 }
 

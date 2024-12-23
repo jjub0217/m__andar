@@ -1,5 +1,4 @@
 import React, { useEffect, useState, useRef } from "react";
-import { Link } from "react-router-dom";
 import Menu from "./Menu";
 import Nav from "./Nav";
 import AreaEvent from "./AreaEvent";
@@ -119,6 +118,7 @@ const Header = ({
           </button>
         </div>
         <div className="tools_area">
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="" className="link_cart" aria-label="장바구니">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -133,6 +133,7 @@ const Header = ({
             </svg>
             <span className="count">0</span>
           </a>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="" className="link_profile" aria-label="내 정보">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -182,9 +183,11 @@ const Header = ({
       <nav className={`gnb ${isGnbVisible ? "is_show" : ""}`} ref={gnbRef}>
         <div className="login_wrap">
           <div className="login_link_area">
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="" className="link_login">
               로그인
             </a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="" className="link_login">
               회원가입
             </a>
@@ -200,9 +203,11 @@ const Header = ({
             <Nav {...navProps} />
             <AreaEvent />
             <div className="brand_info_area">
+              {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
               <a href="" className="brand_info_link">
                 브랜드 스토리
               </a>
+              {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
               <a href="" className="brand_info_link">
                 전국매장안내
               </a>
