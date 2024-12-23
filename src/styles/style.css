@@ -606,7 +606,7 @@ fieldset {
   left: 0;
   z-index: 1;
   width: 83.2%;
-  height: 100vh;
+  height: 100%;
   background: #fff;
   transform: translateX(-100%);
   transition: all 0.5s;
@@ -813,6 +813,9 @@ fieldset {
 }
 .gnb .recent_area .recent_list .recent_item {
   width: 20%;
+}
+.gnb .recent_area .recent_list .recent_item .link_item {
+  padding-bottom: 0;
 }
 .gnb .recent_area .recent_list .recent_item .image_box {
   position: relative;

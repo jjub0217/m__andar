@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/m__andar/static/css/main.ebdefac7.css",
+    "main.css": "/m__andar/static/css/main.1ecb8a62.css",
     "main.js": "/m__andar/static/js/main.e203eddf.js",
     "static/media/img_visual_item1.jpeg": "/m__andar/static/media/img_visual_item1.983e8edca5bfbc2d56b6.jpeg",
     "static/media/img_visual_item3.jpeg": "/m__andar/static/media/img_visual_item3.5f1e60f08dc8be8557b2.jpeg",
@@ -129,11 +129,11 @@
     "static/media/img_bratop_item3.webp": "/m__andar/static/media/img_bratop_item3.b6ff8e3a5a877cbf8d28.webp",
     "static/media/img_bratop_item7.webp": "/m__andar/static/media/img_bratop_item7.f8c7b218291927d5951f.webp",
     "index.html": "/m__andar/index.html",
-    "main.ebdefac7.css.map": "/m__andar/static/css/main.ebdefac7.css.map",
+    "main.1ecb8a62.css.map": "/m__andar/static/css/main.1ecb8a62.css.map",
     "main.e203eddf.js.map": "/m__andar/static/js/main.e203eddf.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebdefac7.css",
+    "static/css/main.1ecb8a62.css",
     "static/js/main.e203eddf.js"
   ]
 }
