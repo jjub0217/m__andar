@@ -28,9 +28,9 @@
 [1] 모바일
 <img src="https://github.com/user-attachments/assets/882861f4-dd9d-44c8-9dfc-1f325568eaa6" width=800> <br>
 - Open-WAX 결과 : error 0<br>
-<img src="https://github.com/jjub0217/beautiful.github.io/assets/62126380/0f9f41f0-4da2-458b-89f0-2b16d965d493" width=270> <br>
+<img src="https://github.com/user-attachments/assets/c7815243-339d-4472-b5a9-81d56c4ceb9d" width=270> <br>
 - WAVE 결과: error 0<br>
-<img src="https://github.com/user-attachments/assets/85165959-ca60-41f8-84a6-522e526533da" width=800>
+<img src="https://github.com/user-attachments/assets/e7d8efca-c2c1-47b2-9e31-dd18917844e7" width=800>
 
 ## 모바일 디바이스 검수
 - 안드로이드 Note20 울트라
@@ -46,17 +46,16 @@
 ![CSS3](https://img.shields.io/badge/CSS3-2E9AFE?style=flat-square&logo=CSS3&logoColor=white)
 ![SASS](https://img.shields.io/badge/Sass-cc6699?style=flat-square&logo=sass&logoColor=white)
 ![Javascript](https://img.shields.io/badge/Javascript-gray?style=flat-square&logo=Javascript&logoColor=f7df1e)
-![jQuery](https://img.shields.io/badge/jQuery-0769ad?style=flat-square&logo=jQuery&logoColor=white)
+![React](https://img.shields.io/badge/React-gray?style=flat-square&logo=React&logoColor=00dcff)
 ![Swiper](https://img.shields.io/badge/Swiper-gray?style=flat-square&logo=Swiper&logoColor=0080FF)
-![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=GreenSock&logoColor=white)
 
 
 ## 포함된 자바스크립트 라이브러리
 | Name      | License                          | Copyright                                 |
 | --------- | -------------------------------- | ----------------------------------------- |
 | Swiper.js | MIT License                      | 2019 Vladimir Kharlampidi                 |
-| jQuery    | MIT License                      | OpenJS Foundation and jQuery contributors |
-| GSAP      | Standard License, Club GreenSock | 3.12.2ver 2023 GreenSock LLC              |
+| React.js  | MIT License                      | Facebook, Inc. and its affiliates         |
+
 
 ## 개선점
 - 웹접근성을 더욱 지키기 위해 텍스트와 배경간의 명도 대비, 고대비 점수를 높이기
