@@ -130,7 +130,7 @@ const SectionVisual = () => {
               <div className="image_box">
                 <picture>
                   <source srcSet={slide.webpSrc} type="image/webp" />
-                  <img src={slide.imgSrc} alt={slide.altText} />
+                  <img src={slide.imgSrc} alt={slide.altText} loading="eager" />
                 </picture>
               </div>
             </a>
