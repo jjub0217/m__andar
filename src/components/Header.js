@@ -26,7 +26,6 @@ const Header = ({
     setIsSearchVisible((prev) => {
       const newExpand = !prev;
       document.body.classList.toggle("scroll_hide", newExpand);
-      // inputSearchAreaRef.current.classList.toggle("is_show");
       return newExpand;
     });
   };
@@ -48,7 +47,6 @@ const Header = ({
     };
   }, []);
 
-  useEffect(() => {console.log(isSearchVisible);}, [isSearchVisible]);
 
 
   return (
