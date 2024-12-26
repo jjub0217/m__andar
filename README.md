@@ -34,11 +34,11 @@
 
 ## 모바일 디바이스 검수
 - 안드로이드 Note20 울트라
-<video src="https://github.com/user-attachments/assets/c305df3d-f599-4293-a428-3eb1d8ca8716" autoplay muted playsinline loop></video>
+<video src="https://github.com/user-attachments/assets/8a274963-b3c2-49dc-a3a1-8656ff3f1f2c" autoplay muted playsinline loop></video>
 - 아이폰 SE2 
-<video src="https://github.com/user-attachments/assets/44968861-ae50-4ee1-8e9b-c0906d7a6a89" autoplay muted playsinline loop></video>
+<video src="https://github.com/user-attachments/assets/85fec815-d8ac-4e7d-9a60-f5c201fd392b" autoplay muted playsinline loop></video>
 - 아이패드 6
-<video src="https://github.com/user-attachments/assets/3708716e-9d26-4686-b656-216b2ed4888a" autoplay muted playsinline loop></video>
+<video src="https://github.com/user-attachments/assets/d41a19b2-8afb-4037-955c-675fb2f17a19" autoplay muted playsinline loop></video>
 
 
 ## 기술 스택
